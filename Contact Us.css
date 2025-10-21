@@ -1,0 +1,345 @@
+ *{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    box-sizing: border-box;
+    color: gray;
+    
+
+ }
+ body{
+    background-color: white;
+ }
+ header{
+    border: 1px solid  rgb(26, 26, 61);
+    height: 95px;
+   background-color: rgb(26, 26, 61);
+ }
+ .clock{
+     display: flex;
+    gap: 0.6rem;
+    margin: 3px;
+
+ }
+ .clocks{
+    gap: 0.6rem;
+    margin-left: 950px;
+    margin-top: -60px;
+    max-width: 1000px;
+
+ }
+ .usee{
+   
+    margin-left: 20px;
+    margin-top: -20px;
+ }
+ .email{
+    display: flex;
+    gap: 0.6rem;
+    margin: 3px;
+
+ }
+ .mon{
+    margin-left: 25px;
+    margin-top: 5px;
+ }
+.redpart{
+    text-align: center;
+    margin-top: -90px;
+    border: 2px solid red;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: red;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: azure;
+    border-bottom-right-radius: 40000px;
+    border-bottom-left-radius: 40000px;
+    
+ }
+ .us{
+    text-align: end;
+    margin-right: 330px;
+    margin-top: -70px;
+    
+ }
+ .moo:hover{
+   color:tomato;
+   text-decoration: none;
+   transition-duration: 2.5s;
+
+ }
+ .moo{
+   text-decoration: none;
+   
+ }
+ .rd{
+    margin-left: 20px;
+ }
+ .use{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: -35px;
+ }
+ .red{
+    margin-right: -18px;
+ }
+ .welcome{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: tomato;
+    max-width: 600px;
+ }
+ .map{
+   text-align: end;
+    margin-right: 100px;
+    margin-top: -70px;
+    
+ }
+ .phil{
+    color: black;
+    display: flex;
+    margin-bottom:30px;
+    font-size: 50px;
+    
+ }
+ .ptel1{
+   height: 50px;
+   margin-top: -20px;
+   margin-left: 0px;
+   gap: 1rem;
+   
+ }
+ .rob{
+    border: 2px solid  rgb(26, 26, 61);
+    height: 55px;
+    width: 12px;
+   background-color: rgb(26, 26, 61);
+   margin-top: -2px;
+ }
+ .orb{
+   border: 2px solid  rgb(26, 26, 61);
+    height: 40px;
+    width: 12px;
+   background-color: rgb(26, 26, 61);
+   margin-left: 1339px;
+   margin-top: -55px;
+
+
+ }
+  .nav-one{
+   display: flex;
+   margin-top: -100px;
+   border: 1px solid white;
+   background-color: white;
+   width: 1300px;
+   height: 100px;
+   padding-top: 40px;
+   
+ }
+ .nav{
+  margin-top: 50px;
+  margin-left: 20px;
+ }
+ .Home{
+   color: black;
+   display: flex;
+   gap: 30px;
+   font-weight: 700px;
+   text-decoration: none;
+   font-size: medium;
+   margin-left: 150PX;
+   list-style: none;
+ }
+ .homee{
+   text-decoration: none;
+   color: black;
+ }
+ .homee:hover{
+   color: tomato;
+   transition-duration: 2.5s;
+ }
+ .num{
+   text-align: end;
+   margin-right: -200px;
+   margin-top: -20px;
+ }
+ .rednum{
+   color: red;
+   font-size: 21.5px;
+   font-weight: 900;
+ }
+ .book{
+   padding: 15px;
+   margin-right: -200px;
+   top: -140px;
+   background-color: rgb(240, 42, 42);
+   border: 1px solid  rgb(240, 42, 42);
+   text-decoration: none;
+   font-weight: 900;
+   cursor: pointer;
+ }
+ .books{
+   margin-top: -45px;
+   text-decoration: none;
+   color: white;
+   
+ }
+ .a{
+    color: white;
+ }
+ 
+ .book:hover{
+   background-color: white;
+   text-decoration: none;
+   color: red;
+   transition-duration: 2.5s;
+}
+.a:hover{
+    color: red;
+}
+.about{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+    color: black;
+}.abo{
+    text-align: center;
+    margin-top: 150px;
+    color: black;
+    padding-bottom: 250px;
+}
+.ab{
+    margin-left: 100px;
+}
+.bor{
+    border: 2px solid rgb(245, 243, 243);
+    width: 550px;
+    margin-left: 680px;
+    margin-top: -240px;
+    padding-top: 30px;
+    padding-left: 30px;
+    background-color: rgb(245, 243, 243);
+    padding-bottom: 40px;
+}
+.quinti{
+    height: 70px;
+    width: 200px;
+    background-color:  rgb(240, 42, 42);
+    border: 2px  rgb(240, 42, 42);
+    font-size: 20px;
+    /* color: white; */
+    cursor:pointer;
+    margin-left: 900px;
+    margin-top: -40px;
+}
+.quinti:hover{
+    height: 70px;
+    width: 200px;
+    background-color:white ;
+    transition-duration: 1.5s;
+    border: 1px solid red;
+    font-size: 20px;
+    color: red;
+}
+
+.look{
+  font-size: 18px;
+  color: blue;
+  margin-top: 1px;
+  /* margin-right: -40px; */
+  cursor: pointer;
+  margin-left: 25px;
+}
+.look:hover{
+  font-size: 18px;
+  color: red;
+  margin-top: 1px;
+  /* margin-right: 20px; */
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.jug{
+    color: black;
+}
+.inp{
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 230px;
+    border: 1px solid rgb(238, 236, 236);
+    
+}
+.inpot{
+    
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(238, 236, 236);
+    
+}
+
+.inpo{
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 230px;
+    border: 1px solid rgb(238, 236, 236);
+    font-size: 15px;
+}
+
+.inpu{
+    margin-left: 250px;
+    margin-bottom: 10px;
+    margin-top: -88px;
+    
+}
+.input{
+    height: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 20px;
+    
+}
+
+.se{
+    color: red;
+    background-color: rgb(255, 235, 235);
+}
+.save{
+    margin-top: -30px;
+    margin-left: 30px;
+    color: black;
+}
+.dub{
+    margin-top: 20px;
+}
+.fun{
+    height: 70px;
+    width: 200px;
+    background-color:  rgb(240, 42, 42);
+    border: 2px  rgb(240, 42, 42);
+    font-size: 20px;
+    color: white;
+    cursor:pointer;
+}
+.fun:hover{
+    height: 70px;
+    width: 200px;
+    background-color:white ;
+    transition-duration: 1.5s;
+    border: 1px solid red;
+    font-size: 20px;
+    color: red;
+}
+.gun{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 800;
+    color: black;
+    max-width: 300px;
+}
+.kup{
+    font-size: 19px;
+    margin-top: 40px;
+}
