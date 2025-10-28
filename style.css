@@ -247,11 +247,6 @@
    margin-left: 650px;
    margin-top: -300px;
  }  
- .brands{
-
-
-
- }
  .border{
    
     display: flex;
@@ -753,4 +748,165 @@ tabo{
 .zed{
   margin-top: -10px;
 }
+/* ===== FULLY RESPONSIVE FIXES ===== */
+@media (max-width: 1024px) {
+  /* Header fixes */
+  .clocks {
+    margin-left: auto !important;
+    margin-right: 20px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .use, .alt {
+    text-align: center !important;
+    margin: 10px auto !important;
+  }
+  .redpart {
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    border-radius: 0 0 30px 30px !important;
+  }
 
+  /* Nav fixes */
+  .nav-one {
+    width: 100% !important;
+    padding: 0 15px !important;
+    flex-wrap: wrap;
+    height: auto !important;
+  }
+  .ptel1 {
+    margin-left: 0 !important;
+  }
+  .Home {
+    gap: 15px !important;
+    margin-left: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .num {
+    margin: 20px auto !important;
+    text-align: center;
+  }
+  .book {
+    margin: 15px auto !important;
+    display: block;
+    width: fit-content;
+  }
+
+  /* Main content */
+  .welcome {
+    margin-left: 15px !important;
+    margin-right: 15px !important;
+    max-width: 100% !important;
+  }
+  .screen {
+    margin-left: 0 !important;
+    margin-top: 20px !important;
+    text-align: center;
+  }
+  .screen img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Brands */
+  .border {
+    justify-content: center;
+    gap: 15px;
+  }
+
+  /* Why choose us */
+  .brd, .quality {
+    margin-left: 0 !important;
+    text-align: center !important;
+    max-width: 100% !important;
+  }
+  .care {
+    margin: 30px 10px !important;
+  }
+  .str {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .str li {
+    flex: 1 1 40%;
+    max-width: 150px;
+  }
+
+  /* Choose Us section */
+  .US {
+    margin-left: 0 !important;
+    text-align: center;
+    width: 100%;
+  }
+  .ass {
+    padding: 0 15px;
+  }
+  .skill {
+    flex-direction: column;
+    gap: 25px;
+    align-items: flex-start;
+  }
+  .user, .User, .uSer, .usher {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .engi, .Engi, .ngi {
+    margin: 5px 0 0 0 !important;
+  }
+  .our, .Our, .OUR {
+    margin-left: 0 !important;
+    margin-top: 5px !important;
+  }
+
+  /* Skills bars */
+  .div, .vid, .vod {
+    margin-left: 15px !important;
+    width: calc(100% - 30px) !important;
+  }
+  .divs, .vidss, .Vidss, .VIDSS {
+    margin-left: auto !important;
+    margin-right: 15px !important;
+  }
+
+  /* Tools */
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 40px 10px !important;
+  }
+  .fa-tool, .Fa-tool, .fal {
+    width: 100%;
+    max-width: 300px;
+    padding: 20px !important;
+  }
+  .tool, .Tool, .Too {
+    margin: 0 !important;
+    width: 100%;
+  }
+
+  /* Services tabs */
+  .tabs {
+    margin: 30px 10px !important;
+  }
+  .zizou {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
+  .tab, .tabb, .tabbs {
+    padding: 15px !important;
+    font-size: 16px !important;
+    margin: 5px !important;
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+  }
+}

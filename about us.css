@@ -272,3 +272,115 @@
     text-align: justify;
     font-size: 15px;
 }
+/* ===== RESPONSIVE FIX FOR MOBILE & TABLET ===== */
+@media (max-width: 1024px) {
+  /* Header adjustments */
+  header {
+    height: auto !important;
+    padding: 15px 10px !important;
+  }
+  .first-div {
+    position: relative;
+  }
+  .clocks {
+    margin-left: auto !important;
+    margin-right: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .use, .alt {
+    text-align: center !important;
+    margin: 10px auto !important;
+  }
+  .redpart {
+    margin: 15px !important;
+    border-radius: 0 0 25px 25px !important;
+    padding: 20px 10px !important;
+  }
+  .gray {
+    margin: 0 -1px !important;
+    height: auto !important;
+    padding: 15px 0;
+  }
+  .we {
+    margin-top: 0 !important;
+    padding: 0 15px;
+  }
+
+  /* Navigation */
+  .nav-one {
+    width: 100% !important;
+    height: auto !important;
+    flex-wrap: wrap;
+    padding: 10px 15px !important;
+    position: relative !important;
+    margin: 0 !important;
+  }
+  .ptel1 {
+    margin-left: 0 !important;
+    height: 40px !important;
+  }
+  .Home {
+    gap: 15px !important;
+    margin-left: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .num {
+    margin: 15px auto !important;
+    text-align: center;
+  }
+  .book {
+    margin: 15px auto !important;
+    display: block;
+    width: fit-content;
+  }
+
+  /* Main content */
+  .black {
+    margin: 40px 15px !important;
+  }
+  .int {
+    font-size: 28px !important;
+    text-align: center;
+  }
+  .bold, .dlob {
+    font-size: 16px !important;
+    text-align: justify;
+    padding: 0 10px;
+  }
+  .bpld {
+    display: block;
+  }
+
+  /* Feature boxes */
+  .e, .ep {
+    margin: 20px 0 !important;
+    margin-left: 0 !important;
+  }
+  .expe {
+    width: 100% !important;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 15px !important;
+  }
+  .exe {
+    margin-left: 0 !important;
+    margin-bottom: 10px !important;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+  }
+  .exp, .pex, .exper {
+    margin: 0 !important;
+    text-align: center;
+    font-size: 20px !important;
+  }
+  .ex {
+    margin-left: 0 !important;
+    padding: 10px 15px !important;
+    text-align: center;
+  }
+}

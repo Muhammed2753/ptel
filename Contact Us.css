@@ -343,3 +343,100 @@
     font-size: 19px;
     margin-top: 40px;
 }
+/* ===== RESPONSIVE FIX FOR CONTACT US PAGE ===== */
+@media (max-width: 1024px) {
+  /* Header fixes */
+  header {
+    height: auto !important;
+    padding: 15px 10px !important;
+  }
+  .clocks {
+    margin-left: auto !important;
+    margin-right: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .use {
+    text-align: center !important;
+    margin: 10px auto !important;
+  }
+  .redpart {
+    margin: 15px !important;
+    border-radius: 0 0 25px 25px !important;
+    padding: 20px 10px !important;
+  }
+
+  /* Navigation */
+  .nav-one {
+    width: 100% !important;
+    height: auto !important;
+    flex-wrap: wrap;
+    padding: 10px 15px !important;
+    position: relative !important;
+    margin: 0 !important;
+  }
+  .Home {
+    gap: 15px !important;
+    margin-left: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .num {
+    margin: 15px auto !important;
+    text-align: center;
+  }
+  .book {
+    margin: 15px auto !important;
+    display: block;
+    width: fit-content;
+  }
+
+  /* Contact layout */
+  .abo {
+    margin-top: 80px !important;
+    padding-bottom: 40px !important;
+  }
+  .about {
+    font-size: 36px !important;
+    margin-top: 20px !important;
+  }
+
+  /* Stack contact info and form vertically */
+  .ab, .bor {
+    margin: 30px auto !important;
+    width: 90% !important;
+    max-width: 600px;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .bor {
+    padding: 25px !important;
+    margin-top: 0 !important;
+  }
+
+  /* Form fields */
+  .inp, .inpo {
+    width: 100% !important;
+    max-width: none !important;
+  }
+  .inpu {
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+  }
+  .fun, .quinti {
+    width: 100% !important;
+    max-width: 250px;
+    margin: 20px auto !important;
+    display: block;
+  }
+  .save {
+    margin-left: 35px !important;
+    margin-top: 10px !important;
+  }
+
+  /* Hide decorative elements */
+  .rob, .orb {
+    display: none !important;
+  }
+}

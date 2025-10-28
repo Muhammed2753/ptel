@@ -257,3 +257,86 @@
     margin-left: 10px;
     color: rgb(186, 186, 201);
 }
+/* ===== RESPONSIVE FIX FOR SERVICES PAGE ===== */
+@media (max-width: 1024px) {
+  /* Header fixes */
+  header {
+    height: auto !important;
+    padding: 15px 10px !important;
+  }
+  .clocks {
+    margin-left: auto !important;
+    margin-right: 15px !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+  .use {
+    text-align: center !important;
+    margin: 10px auto !important;
+  }
+  .redpart {
+    margin: 15px !important;
+    border-radius: 0 0 25px 25px !important;
+    padding: 20px 10px !important;
+  }
+
+  /* Navigation */
+  .nav-one {
+    width: 100% !important;
+    height: auto !important;
+    flex-wrap: wrap;
+    padding: 10px 15px !important;
+    position: relative !important;
+    margin: 0 !important;
+  }
+  .Home {
+    gap: 15px !important;
+    margin-left: 0 !important;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .num {
+    margin: 15px auto !important;
+    text-align: center;
+  }
+  .book {
+    margin: 15px auto !important;
+    display: block;
+    width: fit-content;
+  }
+
+  /* Services grid */
+  .cool {
+    padding: 30px 15px !important;
+  }
+  .cco, .cco0, .cop, .copo, .cup, .copol {
+    width: 100% !important;
+    max-width: 500px;
+    margin: 25px auto !important;
+    margin-top: 25px !important;
+    padding-bottom: 25px !important;
+  }
+  /* Remove all negative margins and fixed left positions */
+  .cop, .copo, .cup, .copol {
+    margin-left: 0 !important;
+    margin-top: 25px !important;
+  }
+
+  /* Text adjustments */
+  .sol {
+    font-size: 22px !important;
+    margin: 15px 10px !important;
+    text-align: center;
+  }
+  .sole {
+    margin: 0 15px !important;
+    text-align: justify;
+    font-size: 15px !important;
+  }
+
+  /* Hide decorative bars if needed */
+  .rob, .orb {
+    display: none !important;
+  }
+}
