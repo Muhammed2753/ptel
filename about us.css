@@ -274,113 +274,283 @@
 }
 /* ===== RESPONSIVE FIX FOR MOBILE & TABLET ===== */
 @media (max-width: 1024px) {
-  /* Header adjustments */
-  header {
-    height: auto !important;
-    padding: 15px 10px !important;
-  }
-  .first-div {
-    position: relative;
-  }
-  .clocks {
-    margin-left: auto !important;
-    margin-right: 15px !important;
+  *{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 0;
+    box-sizing: border-box;
+    color: gray;    
+    max-height: fit-content;
+ }
+ body{
+    background-color: white;
+    max-height: fit-content;
+    height: 20px;
+ }
+ header{
+    border: 1px solid  rgb(26, 26, 61);
+    height: 140px;
+   background-color: rgb(26, 26, 61);
+   width: 1400px;
+ }
+ .clock{
+     display: flex;
+    gap: 0.6rem;
+    margin: 3px;
+
+ }
+ .clocks{
+    gap: 0.6rem;
+    margin-left: 950px;
+    margin-top: -60px;
+    max-width: 1000px;
+
+ }
+ .usee{
+   
+    margin-left: 20px;
+    margin-top: -20px;
+ }
+ .email{
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-  }
-  .use, .alt {
-    text-align: center !important;
-    margin: 10px auto !important;
-  }
-  .redpart {
-    margin: 15px !important;
-    border-radius: 0 0 25px 25px !important;
-    padding: 20px 10px !important;
-  }
-  .gray {
-    margin: 0 -1px !important;
-    height: auto !important;
-    padding: 15px 0;
-  }
-  .we {
-    margin-top: 0 !important;
-    padding: 0 15px;
-  }
+    gap: 0.6rem;
+    margin: 3px;
 
-  /* Navigation */
-  .nav-one {
-    width: 100% !important;
-    height: auto !important;
-    flex-wrap: wrap;
-    padding: 10px 15px !important;
-    position: relative !important;
-    margin: 0 !important;
-  }
-  .ptel1 {
-    margin-left: 0 !important;
-    height: 40px !important;
-  }
-  .Home {
-    gap: 15px !important;
-    margin-left: 0 !important;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
-  .num {
-    margin: 15px auto !important;
+ }
+ .mon{
+    margin-left: 25px;
+    margin-top: 5px;
+ }
+.redpart{
     text-align: center;
-  }
-  .book {
-    margin: 15px auto !important;
-    display: block;
-    width: fit-content;
-  }
+    margin-top: -90px;
+    border: 2px solid red;
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: red;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    color: azure;
+    border-bottom-right-radius: 40000px;
+    border-bottom-left-radius: 40000px;
+    
+ }
+ .us{
+    text-align: end;
+    margin-right: 330px;
+    margin-top: -70px;
+    
+ }
+ .moo:hover{
+   color:tomato;
+   text-decoration: none;
+   transition-duration: 2.5s;
 
-  /* Main content */
-  .black {
-    margin: 40px 15px !important;
-  }
-  .int {
-    font-size: 28px !important;
+ }
+ .moo{
+   text-decoration: none;
+   
+ }
+ .rd{
+    margin-left: 20px;
+ }
+
+ 
+ .use{
+    text-align: end;
+    margin-right: 50px;
+    margin-top: -35px;
+ }
+ .gray{
+    border: 3px solid gray;
+    margin-top: 68px;
+    margin-left: -1px;
+    margin-right: -1px;
+    height: 7pc;
+    background-color: gray;
+    
+ }
+ .we{
+    /* background-color: gray; */
+    color: white;
     text-align: center;
-  }
-  .bold, .dlob {
-    font-size: 16px !important;
+    margin-top: 90px;
+    /* align-items: baseline; */
+    
+ }
+  .red{
+    margin-right: -18px;
+ }
+ .welcome{
+    margin-top: 100px;
+    margin-left: 20px;
+    color: tomato;
+    max-width: 600px;
+ }
+ .map{
+   text-align: end;
+    margin-right: 100px;
+    margin-top: -70px;
+    
+ }
+ .phil{
+    color: black;
+    display: flex;
+    margin-bottom:30px;
+    font-size: 50px;
+    
+ }
+ .nav-one{
+    border: 3px solid white;
+    width: 1340px;
+    margin-top: -45px;
+    height: 130px;
+    position: absolute;
+    margin-left: 15px;
+    background-color: white;
+
+ }
+ .ptel1{
+   height: 30px;
+   margin-top: 50px;
+   margin-left: 0px;
+   gap: 1rem;
+   
+ }
+ .li{
+    height: 30px;
+   margin-top: 50px;
+   margin-left: 0px;
+   gap: 1rem;
+   
+ }
+ .nav-one{
+   display: flex;
+ }
+ .Home{
+   color: black;
+   display: flex;
+   gap: 30px;
+   font-weight: 700px;
+   text-decoration: none;
+   font-size: medium;
+   margin-left: 150PX;
+   list-style: none;
+ }
+ .homee{
+   text-decoration: none;
+   color: black;
+ }
+ .homee:hover{
+   color: tomato;
+   transition-duration: 2.5s;
+ }
+ .num{
+   text-align: end;
+   margin-right: -250px;
+   margin-top: -20px;
+ }
+ .rednum{
+   color: red;
+   font-size: 21.5px;
+   font-weight: 900;
+ }
+ .book{
+   padding: 15px;
+   margin-right: -180px;
+   top: -140px;
+   background-color: rgb(240, 42, 42);
+   border: 1px solid  rgb(240, 42, 42);
+   text-decoration: none;
+   font-weight: 900;
+ }
+ .books{
+   margin-top: -45px;
+   text-decoration: none;
+   color: white;
+   
+ }
+ 
+ .books:hover{
+   background-color: white;
+   text-decoration: none;
+   color: red;
+   transition-duration: 2.5s;
+}
+
+.int{
+    color: black;
+    font-size: 40px;
+}
+.black{
+    margin-top: 150px;
+    margin-left: 40px;
+}
+.bpld{
+    color: black;
+}
+.bold{
+    font-size: 20px;
+}
+.dlob{
+    padding-top: 20px;
+    
+}
+.e{
+    margin-top: -200px;
+    margin-left: 780px;
+    
+}
+.Ex{
+  margin-top: -400px;
+}
+.ep{
+    margin-left: 780px;
+    margin-top: 20px;
+}
+.exe{
+    font-size: 30px;
+    margin-left: -430px;
+    margin-bottom: -180px;
+    
+}
+.exp{
+    font-size: 25px;
+    margin-top: -30px;
+    font-weight: 300;
+    color: black;
+    margin-left: -96px;
+    /* padding-right: 40px; */
+}
+
+.pex{
+    font-size: 25px;
+    margin-top: -30px;
+    font-weight: 300;
+    color: black;
+    margin-left: -65px;
+    
+}
+.exper{
+    font-size: 25px;
+    margin-top: -30px;
+    font-weight: 300;
+    color: black;
+    margin-left: -140px;
+}
+.expe{
+    padding-top: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(235, 232, 232);
+    padding-bottom: 10px;
+    width: 500px;
+    padding-right: 30px;
+    background-color: white;
+}
+.ex{
+    margin-left: 70px;
+    padding-top: 10px;
     text-align: justify;
-    padding: 0 10px;
-  }
-  .bpld {
-    display: block;
-  }
-
-  /* Feature boxes */
-  .e, .ep {
-    margin: 20px 0 !important;
-    margin-left: 0 !important;
-  }
-  .expe {
-    width: 100% !important;
-    max-width: 500px;
-    margin: 0 auto;
-    padding: 15px !important;
-  }
-  .exe {
-    margin-left: 0 !important;
-    margin-bottom: 10px !important;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    justify-content: center;
-  }
-  .exp, .pex, .exper {
-    margin: 0 !important;
-    text-align: center;
-    font-size: 20px !important;
-  }
-  .ex {
-    margin-left: 0 !important;
-    padding: 10px 15px !important;
-    text-align: center;
-  }
+    font-size: 15px;
+}
 }
